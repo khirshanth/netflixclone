@@ -1,0 +1,16 @@
+.a{
+    background-image: url(https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg);
+    position: fixed;
+    size: cover;
+    text-align: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.logo{
+    display: flex;
+    padding: 20px;
+    width: 100px;
+    object-fit: contain;
+}

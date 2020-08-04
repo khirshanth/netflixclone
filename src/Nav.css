@@ -1,0 +1,35 @@
+.nav{
+    position: fixed;
+    top:0;
+    display: flex;
+    z-index: 2;
+    padding: 20px;
+    height: 30px;
+    width: 100%;
+    transition: all 0.5s;
+}
+.logo{
+   width: 100px;
+  object-fit: contain;
+  position: absolute;
+  right:90%;
+    
+   
+}
+.nav-black{
+    background-color: black;
+}
+.butt{
+    color: #fff;
+    background: rgba(229,9,20);
+    border:none;
+    border-radius: 0.125rem;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+     position: absolute;
+     right: 10%;
+     height: 2rem;
+     width: 100px;
+   
+}
