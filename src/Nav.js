@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react";
 import "./Nav.css"
-import {Link,BrowserRouter as Router} from "react-router-dom"
+import fire from "./fire"
 
 function Nav(){
     const[show,handleShow]= useState(false)
@@ -26,9 +26,8 @@ function Nav(){
             src="https://pmcvariety.files.wordpress.com/2020/05/netflix-logo.png?w=681&h=383&crop=1"
             alt="netflix  logo"
             />
-             <Router>
-                <Link to="/logOut" className="butt">Log Out</Link>
-            </Router>
+          <button className="butt"
+          onClick={()=>{fire.auth().signOut()}}>Log Out</button>
         </div>
     )
 }

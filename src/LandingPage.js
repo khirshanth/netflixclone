@@ -1,6 +1,6 @@
 import React from "react";
 
-import logOut from "./logOut"
+
 import fire from "./fire"
 import App from "./App"
 import Home from "./Home"

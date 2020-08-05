@@ -3,9 +3,9 @@ import Row from "./Row"
 import request from "./request";
 import "./App.css"
 import Nav from "./Nav"
-import {BrowserRouter as Router,Link} from "react-router-dom"
 
 import Banner from './Banner';
+
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
      
            
     <Nav/> 
-   
+  
     <Banner />
     
     <Row title='NETFLIX ORIGINALS' fetchUrl={request.fetchNetflixOriginals} isLargeRow />

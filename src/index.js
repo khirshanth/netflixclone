@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import LandingPage from './LandingPage';
-import Hi from "./Hi"
-import { BrowserRouter } from 'react-router-dom';
+import LandingPage from './LandingPage';
+
+
 
 
 
 
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Hi/>
-  </BrowserRouter>
+  <LandingPage/>
   ,
   document.getElementById('root')
 );
